@@ -120,13 +120,13 @@ public class BiomeGenLandOfLakes extends BOPOverworldBiome
     public int getGrassColorAtPos(BlockPos pos)
     {
         double noise = GRASS_COLOR_NOISE.getValue((double)pos.getX() * 0.0225D, (double)pos.getZ() * 0.0225D);
-        return getModdedBiomeGrassColor(noise < -0.1D ? 13414508 : 13419628);
+        return getModdedBiomeGrassColor(noise < -0.1D ? 8808521 : 10184777);
     }
 
     @Override
     public int getFoliageColorAtPos(BlockPos pos)
     {
         double noise = GRASS_COLOR_NOISE.getValue((double)pos.getX() * 0.0225D, (double)pos.getZ() * 0.0225D);
-        return getModdedBiomeFoliageColor(noise < -0.1D ? 12766316 : 10730594);
+        return getModdedBiomeFoliageColor(noise < -0.1D ? 11961666 : 11953474);
     }  
 }

@@ -108,12 +108,12 @@ public class BiomeGenOriginIsland extends BOPOverworldBiome
     @Override
     public int getGrassColorAtPos(BlockPos pos)
     {
-        return getModdedBiomeGrassColor(10682207);
+        return getModdedBiomeGrassColor(9208933);
     }
 
     @Override
     public int getFoliageColorAtPos(BlockPos pos)
     {
-        return getModdedBiomeFoliageColor(3866368);
+        return getModdedBiomeFoliageColor(11965285);
     }
 }

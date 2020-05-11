@@ -78,12 +78,12 @@ public class BiomeGenSnowyForest extends BOPOverworldBiome
     @Override
     public int getGrassColorAtPos(BlockPos pos)
     {
-        return getModdedBiomeGrassColor(0xBCA165);
+        return getModdedBiomeGrassColor(0x937C5D);
     }
 
     @Override
     public int getFoliageColorAtPos(BlockPos pos)
     {
-        return getModdedBiomeFoliageColor(0xBCA165);
+        return getModdedBiomeFoliageColor(0x84695D);
     }
 }

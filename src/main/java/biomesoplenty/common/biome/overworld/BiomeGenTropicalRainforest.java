@@ -119,12 +119,12 @@ public class BiomeGenTropicalRainforest extends BOPOverworldBiome
     @Override
     public int getGrassColorAtPos(BlockPos pos)
     {
-        return getModdedBiomeGrassColor(0xA7E140);
+        return getModdedBiomeGrassColor(0x4671AE);
     }
     
     @Override
     public int getFoliageColorAtPos(BlockPos pos)
     {
-        return getModdedBiomeFoliageColor(0x88E140);
+        return getModdedBiomeFoliageColor(0x4680C2);
     }
 }

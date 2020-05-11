@@ -91,6 +91,6 @@ public class BiomeGenDeadForest extends BOPOverworldBiome
     @Override
     public int getFoliageColorAtPos(BlockPos pos)
     {
-        return getModdedBiomeFoliageColor(0xBCA165);
+        return getModdedBiomeFoliageColor(0x787871);
     }
 }

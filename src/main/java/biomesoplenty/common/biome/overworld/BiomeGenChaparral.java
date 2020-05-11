@@ -138,6 +138,6 @@ public class BiomeGenChaparral extends BOPOverworldBiome
     @Override
     public int getGrassColorAtPos(BlockPos pos)
     {
-        return getModdedBiomeGrassColor(0xC4D675);
+        return getModdedBiomeGrassColor(0x866849);
     }
 }

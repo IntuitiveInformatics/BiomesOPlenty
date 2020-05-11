@@ -108,12 +108,12 @@ public class BiomeGenDeadSwamp extends BOPOverworldBiome
     @Override
     public int getGrassColorAtPos(BlockPos pos)
     {
-        return getModdedBiomeGrassColor(0x66704C);
+        return getModdedBiomeGrassColor(0x84702F);
     }
     
     @Override
     public int getFoliageColorAtPos(BlockPos pos)
     {
-        return getModdedBiomeFoliageColor(0x66704C);
+        return getModdedBiomeFoliageColor(0x84702F);
     }
 }

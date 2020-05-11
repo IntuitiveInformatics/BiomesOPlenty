@@ -158,12 +158,12 @@ public class BiomeGenQuagmire extends BOPOverworldBiome
     @Override
     public int getGrassColorAtPos(BlockPos pos)
     {
-        return getModdedBiomeGrassColor(0x938060);
+        return getModdedBiomeGrassColor(0x886937);
     }
     
     @Override
     public int getFoliageColorAtPos(BlockPos pos)
     {
-        return getModdedBiomeFoliageColor(0xAAA072);
+        return getModdedBiomeFoliageColor(0xAA6D37);
     }
 }
